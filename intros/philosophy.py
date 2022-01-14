@@ -25,7 +25,6 @@
 # remarkable opportunities for businesses and entrepreneurs around the world, especially in developing 
 # countries.
 
-
 #! Types of licenses
 #What are the different types of software licenses?
 #Here are five types of common software license models you should know about. Four are examples of open 
