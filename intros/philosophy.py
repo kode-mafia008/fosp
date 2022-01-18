@@ -1,4 +1,5 @@
 
+# 2018 ||  
 #! What is Open Source ?
 # Open source software is software with source code that anyone can inspect, modify, and
 # enhance."Source code" is the part of software that most computer users don't ever see; 
@@ -59,3 +60,77 @@
 #Proprietary. Of all types of software licenses, this is the most restrictive. The idea behind it is that
 # all rights are reserved. It’s generally used for proprietary software where the work may not be modified
 # or redistributed.
+
+#! Web Server | Client-Web Server Configuration
+#A web server is software and hardware that uses HTTP (Hypertext Transfer Protocol) and other 
+# protocols to respond to client requests made over the World Wide Web. The main job of a web server
+# is to display website content through storing, processing and delivering webpages to users. Besides
+# HTTP, web servers also support SMTP (Simple Mail Transfer Protocol) and FTP (File Transfer Protocol),
+# used for email, file transfer and storage.Web server hardware is connected to the internet and
+# allows data to be exchanged with other connected devices, while web server software controls how a
+# user accesses hosted files. The web server process is an example of the client/server model. All 
+# computers that host websites must have web server software.Web servers are used in web hosting, or
+# the hosting of data for websites and web-based applications -- or web applications.
+
+
+#* Examples of web server uses
+# Web servers often come as part of a larger package of internet- and intranet-related programs that
+# are used for:
+
+# sending and receiving emails;
+# downloading requests for File Transfer Protocol (FTP) files; and
+# building and publishing webpages.
+
+#! Tags used for effective webpages
+#? 4 Basic tags. 
+# <!doctype html>
+#? <html lang="en">
+#?   <head>
+#     <!-- Required meta tags -->
+#     <meta charset="utf-8">
+#     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+#     <!-- Bootstrap CSS -->
+#     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+#?     <title>Hello, world!</title>
+#   </head>
+#?   <body>
+#     <h1>Hello, world!</h1>
+
+#     <!-- Optional JavaScript; choose one of the two! -->
+
+#     <!-- Option 1: Bootstrap Bundle with Popper -->
+#     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+#     <!-- Option 2: Separate Popper and Bootstrap JS -->
+#     <!--
+#     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+#     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+#     -->
+#?   </body>
+#? </html>
+ 
+#! Linking documents in webpage
+#* Ways 
+#? Hyperlink  
+# HTML Links - The target Attribute
+# By default, the linked page will be displayed in the current browser window. To change this, you 
+# must specify another target for the link.
+
+# The target attribute specifies where to open the linked document.
+
+# The target attribute can have one of the following values:
+#! Types of targets in href
+
+# _self - Default. Opens the document in the same window/tab as it was clicked
+# _blank - Opens the document in a new window or tab
+# _parent - Opens the document in the parent frame
+# _top - Opens the document in the full body of the window
+# <h2>Absolute URLs</h2>
+# <p><a href="https://www.w3.org/">W3C</a></p>
+# <p><a href="https://www.google.com/">Google</a></p>
+
+# <h2>Relative URLs</h2>
+# <p><a href="html_images.asp">HTML Images</a></p>
+# <p><a href="/css/default.asp">CSS Tutorial</a></p>
